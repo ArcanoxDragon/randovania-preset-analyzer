@@ -1,0 +1,19 @@
+{
+	"name": "analyze-presets",
+	"version": "0.1.0",
+	"author": "Arcanox",
+	"license": "MIT",
+	"type": "module",
+	"main": "dist/index.js",
+	"packageManager": "yarn@4.2.2",
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/index.js",
+		"prestart": "yarn build"
+	},
+	"devDependencies": {
+		"@types/node": "^20.14.2",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.5"
+	}
+}

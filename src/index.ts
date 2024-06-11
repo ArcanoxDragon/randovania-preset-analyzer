@@ -11,7 +11,7 @@ if (isMain(import.meta)) {
 
 function main() {
 	if (process.argv.length < 3) {
-		console.error(`Usage: node analyze-presets <preset directory>`);
+		console.error(`Usage: node randovania-preset-analyzer <preset directory>`);
 		process.exit(1);
 	}
 
